@@ -1,0 +1,4 @@
+# Cloudflare Pages — redirects
+# Domínio do bordão aponta para a home (configurar o domínio no painel da Cloudflare)
+# Exemplo de uso futuro:
+# https://falacomojorge.com.br/*  https://jorgeresolve.com.br/:splat  301

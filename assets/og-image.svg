@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="78%" cy="0%" r="110%">
+      <stop offset="0" stop-color="#0d3a8a"/>
+      <stop offset="55%" stop-color="#07152E"/>
+      <stop offset="100%" stop-color="#050f22"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B5CFF"/>
+      <stop offset="1" stop-color="#0A4FDB"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#56a0ff"/>
+      <stop offset="1" stop-color="#25D366"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <path d="M0 120 H1200 M0 240 H1200 M0 360 H1200 M0 480 H1200"/>
+    <path d="M120 0 V630 M280 0 V630 M440 0 V630 M600 0 V630 M760 0 V630 M920 0 V630 M1080 0 V630"/>
+  </g>
+  <g transform="translate(80,90)">
+    <rect width="86" height="86" rx="22" fill="url(#chip)"/>
+    <text x="43" y="58" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle">JR</text>
+    <text x="110" y="40" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#fff">Jorge<tspan font-weight="800">Resolve</tspan></text>
+    <text x="110" y="74" font-family="Inter, Arial, sans-serif" font-size="20" fill="#8ec0ff">Fala com o Jorge que ele resolve.</text>
+  </g>
+  <text x="80" y="290" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="#fff">Seu negócio pode estar</text>
+  <text x="80" y="362" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="url(#hl)">perdendo dinheiro<tspan fill="#fff"> sem perceber.</tspan></text>
+  <text x="80" y="436" font-family="Inter, Arial, sans-serif" font-size="28" fill="#cfe0ff">Sites, IA e automação aplicados ao que realmente importa.</text>
+  <g transform="translate(80,486)">
+    <rect width="360" height="64" rx="32" fill="#25D366"/>
+    <text x="180" y="41" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#04210f" text-anchor="middle">Quero encontrar oportunidades</text>
+  </g>
+</svg>

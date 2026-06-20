@@ -1,0 +1,21 @@
+# Cloudflare Pages — cabeçalhos HTTP
+# Segurança + cache para um site estático
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# HTML: sempre revalidar
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Assets versionáveis: cache longo
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/styles.css
+  Cache-Control: public, max-age=86400
+/script.js
+  Cache-Control: public, max-age=86400
