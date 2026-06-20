@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jorgeresolve.com.br/sitemap.xml
+Sitemap: https://jorgeresolve.com/sitemap.xml

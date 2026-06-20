@@ -1,35 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="title desc">
+  <title id="title">Jorge Resolve</title>
+  <desc id="desc">Jorge Resolve, tecnologia que resolve problema real.</desc>
   <defs>
     <radialGradient id="bg" cx="78%" cy="0%" r="110%">
-      <stop offset="0" stop-color="#0d3a8a"/>
+      <stop offset="0" stop-color="#0D3A8A"/>
       <stop offset="55%" stop-color="#07152E"/>
-      <stop offset="100%" stop-color="#050f22"/>
+      <stop offset="100%" stop-color="#050F22"/>
     </radialGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="jr-blue" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0B5CFF"/>
       <stop offset="1" stop-color="#0A4FDB"/>
     </linearGradient>
-    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#56a0ff"/>
+    <linearGradient id="resolve-green" x1="32" y1="94" x2="104" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8BFFB3"/>
+      <stop offset=".48" stop-color="#25D366"/>
+      <stop offset="1" stop-color="#11B85B"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="80" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#56A0FF"/>
       <stop offset="1" stop-color="#25D366"/>
     </linearGradient>
+    <filter id="resolve-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="2.5" flood-color="#04210F" flood-opacity=".32"/>
+    </filter>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
-    <path d="M0 120 H1200 M0 240 H1200 M0 360 H1200 M0 480 H1200"/>
-    <path d="M120 0 V630 M280 0 V630 M440 0 V630 M600 0 V630 M760 0 V630 M920 0 V630 M1080 0 V630"/>
+  <g opacity=".08" stroke="#FFFFFF" stroke-width="1">
+    <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200"/>
+    <path d="M120 0v630M280 0v630M440 0v630M600 0v630M760 0v630M920 0v630M1080 0v630"/>
   </g>
-  <g transform="translate(80,90)">
-    <rect width="86" height="86" rx="22" fill="url(#chip)"/>
-    <text x="43" y="58" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle">JR</text>
-    <text x="110" y="40" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600" fill="#fff">Jorge<tspan font-weight="800">Resolve</tspan></text>
-    <text x="110" y="74" font-family="Inter, Arial, sans-serif" font-size="20" fill="#8ec0ff">Fala com o Jorge que ele resolve.</text>
+  <circle cx="1000" cy="110" r="260" fill="#0B5CFF" opacity=".18"/>
+  <circle cx="78" cy="590" r="220" fill="#25D366" opacity=".10"/>
+
+  <g transform="translate(80,78)">
+    <g transform="scale(.703125)">
+      <rect width="128" height="128" rx="34" fill="url(#jr-blue)"/>
+      <path d="M23 29h82a8 8 0 0 1 8 8v40" fill="none" stroke="#6EA8FF" stroke-width="3.5" stroke-linecap="round" opacity=".42"/>
+      <g filter="url(#resolve-shadow)">
+        <path d="M31 74 53 96 102 47" fill="none" stroke="url(#resolve-green)" stroke-width="19" stroke-linecap="square" stroke-linejoin="miter"/>
+        <path d="M31 74 53 96 102 47" fill="none" stroke="#D9FFE6" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter" opacity=".35"/>
+        <path d="M41 75 34 82M50 84 43 91M66 83l7 7M77 72l7 7M88 61l7 7" fill="none" stroke="#D9FFE6" stroke-width="2.4" stroke-linecap="round" opacity=".74"/>
+      </g>
+      <path d="M92 34H68v43.5C68 93.4 58.5 102 45.7 102c-8.1 0-14.3-3.1-18.5-8.7" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M92 34H70v42.8C70 91 61.4 99 46.8 99c-7.2 0-12.4-2.6-16.4-7" fill="none" stroke="#CFE0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    </g>
+    <text x="116" y="43" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#FFFFFF">Jorge<tspan font-weight="800" fill="#8EC0FF">Resolve</tspan></text>
+    <text x="118" y="76" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#CFE0FF">Tecnologia que resolve problema real.</text>
   </g>
-  <text x="80" y="290" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="#fff">Seu negócio pode estar</text>
-  <text x="80" y="362" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="url(#hl)">perdendo dinheiro<tspan fill="#fff"> sem perceber.</tspan></text>
-  <text x="80" y="436" font-family="Inter, Arial, sans-serif" font-size="28" fill="#cfe0ff">Sites, IA e automação aplicados ao que realmente importa.</text>
-  <g transform="translate(80,486)">
-    <rect width="360" height="64" rx="32" fill="#25D366"/>
-    <text x="180" y="41" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#04210f" text-anchor="middle">Quero encontrar oportunidades</text>
+
+  <text x="80" y="300" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF">Seu negócio pode estar</text>
+  <text x="80" y="376" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#hl)">perdendo dinheiro<tspan dx="16" fill="#FFFFFF">sem perceber.</tspan></text>
+  <text x="80" y="452" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="600" fill="#CFE0FF">Sites, IA e automação aplicados ao que realmente importa.</text>
+
+  <g transform="translate(80,504)">
+    <rect width="372" height="64" rx="32" fill="#25D366"/>
+    <text x="186" y="41" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#04210F" text-anchor="middle">Quero encontrar oportunidades</text>
   </g>
 </svg>

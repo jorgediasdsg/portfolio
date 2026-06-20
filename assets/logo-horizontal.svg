@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 96" role="img" aria-labelledby="title desc">
   <title id="title">Jorge Resolve</title>
+  <desc id="desc">Logo horizontal Jorge Resolve para fundos claros.</desc>
   <defs>
     <linearGradient id="jr-blue" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0B5CFF"/>
@@ -14,7 +15,7 @@
       <feDropShadow dx="0" dy="5" stdDeviation="2.5" flood-color="#04210F" flood-opacity=".32"/>
     </filter>
   </defs>
-  <g transform="translate(4 4) scale(.4375)">
+  <g transform="translate(10 10) scale(.59375)">
     <rect width="128" height="128" rx="34" fill="url(#jr-blue)"/>
     <path d="M24 30h80a8 8 0 0 1 8 8v34" fill="none" stroke="#6EA8FF" stroke-width="3.5" stroke-linecap="round" opacity=".42"/>
     <g opacity=".94">
@@ -30,4 +31,6 @@
       <path d="M40 74l-6 6M48 82l-6 6M67 82l6 6M78 71l6 6M89 60l6 6" fill="none" stroke="#D9FFE6" stroke-width="2.2" stroke-linecap="square" opacity=".68"/>
     </g>
   </g>
+  <text x="106" y="50" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="700" fill="#07152E">Jorge<tspan font-weight="800" fill="#0B5CFF">Resolve</tspan></text>
+  <text x="108" y="72" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#475569">Tecnologia que resolve problema real.</text>
 </svg>

@@ -20,7 +20,7 @@
 | WhatsApp | `554892087242` |
 | Link WhatsApp | `https://wa.me/554892087242?text=Oi%20Jorge,%20quero%20entender%20como%20voc%C3%AA%20pode%20ajudar%20minha%20empresa%20a%20encontrar%20oportunidades.` |
 | E-mail | jorgediasdsg@gmail.com |
-| Instagram | @jorgeresolve |
+| Instagram | @jorge.solved |
 | Localização | Florianópolis, SC |
 | Cor principal | `#0B5CFF` |
 | Verde WhatsApp | `#25D366` |

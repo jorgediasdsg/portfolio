@@ -15,12 +15,12 @@ perceber: **"Fala com o Jorge que ele resolve."**
 
 | Prioridade | Nome | Domínio sugerido | Por quê |
 |---|---|---|---|
-| ⭐ 1ª opção | **Jorge Resolve** | `jorgeresolve.com.br` | O bordão É a marca. Pessoal, memorável, fácil de indicar. |
+| ⭐ 1ª opção | **Jorge Resolve** | `jorgeresolve.com` | O bordão É a marca. Pessoal, memorável, fácil de indicar. |
 | 2ª opção | **Resolve Sites** | `resolvesites.com.br` | Menos pessoal, escala melhor se um dia virar equipe. |
 | 3ª opção | **Fala com o Jorge** | `falacomojorge.com.br` | O bordão literal. Divertido, mas estranho como nome formal de NF. |
 | 4ª opção | **Resolvido** | `resolvido.site` / `.com.br` | Curto, forte, mas mais genérico. |
 
-**Recomendação:** registrar **`jorgeresolve.com.br`** como principal e, se possível,
+**Recomendação:** registrar **`jorgeresolve.com`** como principal e, se possível,
 segurar **`falacomojorge.com.br`** como redirect (protege o bordão e captura quem
 digita ele direto). Verificar disponibilidade em registro.br antes de decidir.
 

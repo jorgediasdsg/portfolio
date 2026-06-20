@@ -156,7 +156,7 @@ tarefas divertidas) como casos.
 
 - **Domínio + hospedagem** (registro.br + provedor).
 - **WhatsApp Business** com catálogo, mensagem automática e link direto (wa.me).
-- **E-mail profissional** (contato@jorgeresolve.com.br) — passa seriedade.
+- **E-mail profissional** (contato@jorgeresolve.com) — passa seriedade.
 - **Ferramenta de agendamento** (pro pacote Agenda) — avaliar opções prontas.
 - **Modelo de proposta** reutilizável (Google Docs/PDF).
 - **Modelo de contrato** simples.

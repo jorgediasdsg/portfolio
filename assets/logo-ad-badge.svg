@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Jorge Resolve</title>
+  <desc id="desc">Logo em formato quadrado para publicidade.</desc>
+  <defs>
+    <radialGradient id="bg" cx="72%" cy="0%" r="110%">
+      <stop offset="0" stop-color="#0D3A8A"/>
+      <stop offset=".58" stop-color="#07152E"/>
+      <stop offset="1" stop-color="#050F22"/>
+    </radialGradient>
+    <linearGradient id="jr-blue" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B5CFF"/>
+      <stop offset="1" stop-color="#0A4FDB"/>
+    </linearGradient>
+    <linearGradient id="resolve-green" x1="32" y1="94" x2="104" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8BFFB3"/>
+      <stop offset=".48" stop-color="#25D366"/>
+      <stop offset="1" stop-color="#11B85B"/>
+    </linearGradient>
+    <filter id="resolve-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="2.5" flood-color="#04210F" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" rx="96" fill="url(#bg)"/>
+  <g opacity=".08" stroke="#FFFFFF" stroke-width="2">
+    <path d="M120 0v1080M300 0v1080M480 0v1080M660 0v1080M840 0v1080M1020 0v1080"/>
+    <path d="M0 120h1080M0 300h1080M0 480h1080M0 660h1080M0 840h1080M0 1020h1080"/>
+  </g>
+  <g transform="translate(326 170) scale(3.34375)">
+    <rect width="128" height="128" rx="34" fill="url(#jr-blue)"/>
+    <path d="M23 29h82a8 8 0 0 1 8 8v40" fill="none" stroke="#6EA8FF" stroke-width="3.5" stroke-linecap="round" opacity=".42"/>
+    <g filter="url(#resolve-shadow)">
+      <path d="M31 74 53 96 102 47" fill="none" stroke="url(#resolve-green)" stroke-width="19" stroke-linecap="square" stroke-linejoin="miter"/>
+      <path d="M31 74 53 96 102 47" fill="none" stroke="#D9FFE6" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter" opacity=".35"/>
+      <path d="M41 75 34 82M50 84 43 91M66 83l7 7M77 72l7 7M88 61l7 7" fill="none" stroke="#D9FFE6" stroke-width="2.4" stroke-linecap="round" opacity=".74"/>
+    </g>
+    <path d="M92 34H68v43.5C68 93.4 58.5 102 45.7 102c-8.1 0-14.3-3.1-18.5-8.7" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M92 34H70v42.8C70 91 61.4 99 46.8 99c-7.2 0-12.4-2.6-16.4-7" fill="none" stroke="#CFE0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+  </g>
+  <text x="540" y="728" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="700" fill="#FFFFFF" text-anchor="middle">Jorge<tspan font-weight="800" fill="#8EC0FF">Resolve</tspan></text>
+  <text x="540" y="804" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#CFE0FF" text-anchor="middle">Tecnologia que resolve problema real.</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle">
+    <rect x="213" y="876" width="182" height="58" rx="29" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <rect x="449" y="876" width="182" height="58" rx="29" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <rect x="685" y="876" width="182" height="58" rx="29" fill="#FFFFFF" fill-opacity=".10" stroke="#FFFFFF" stroke-opacity=".18"/>
+    <text x="304" y="914" fill="#FFFFFF">Sites</text>
+    <text x="540" y="914" fill="#FFFFFF">IA</text>
+    <text x="776" y="914" fill="#FFFFFF">Automação</text>
+  </g>
+</svg>

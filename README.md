@@ -38,7 +38,7 @@ python3 -m http.server 8080
    - Build command: *(vazio)*
    - Build output directory: **`/`** (raiz)
 5. **Save and Deploy.**
-6. Em **Custom domains**, conecte `jorgeresolve.com.br` (e, se quiser, o redirect
+6. Em **Custom domains**, conecte `jorgeresolve.com` (e, se quiser, o redirect
    de `falacomojorge.com.br` — ver `_redirects`).
 
 ### Opção B — pela CLI (Wrangler)
