@@ -23,7 +23,7 @@
 
 ## Conceito do símbolo
 
-O monograma combina um J branco de Jorge com um esquadro verde em posição de check, com cantos retos e marcas de régua. A leitura principal é "resolve com método": diagnóstico, execução e confirmação do problema resolvido.
+O monograma combina um R branco geométrico ao fundo com um esquadro verde em posição de check, com cantos retos e marcas de régua. A leitura principal é "resolve com método": diagnóstico, precisão, execução e confirmação do problema resolvido.
 
 ## Cores
 

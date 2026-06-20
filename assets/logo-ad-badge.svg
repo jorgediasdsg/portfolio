@@ -11,7 +11,7 @@
       <stop offset="0" stop-color="#0B5CFF"/>
       <stop offset="1" stop-color="#0A4FDB"/>
     </linearGradient>
-    <linearGradient id="resolve-green" x1="32" y1="94" x2="104" y2="42" gradientUnits="userSpaceOnUse">
+    <linearGradient id="resolve-green" x1="28" y1="108" x2="112" y2="34" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8BFFB3"/>
       <stop offset=".48" stop-color="#25D366"/>
       <stop offset="1" stop-color="#11B85B"/>
@@ -27,14 +27,19 @@
   </g>
   <g transform="translate(326 170) scale(3.34375)">
     <rect width="128" height="128" rx="34" fill="url(#jr-blue)"/>
-    <path d="M23 29h82a8 8 0 0 1 8 8v40" fill="none" stroke="#6EA8FF" stroke-width="3.5" stroke-linecap="round" opacity=".42"/>
-    <g filter="url(#resolve-shadow)">
-      <path d="M31 74 53 96 102 47" fill="none" stroke="url(#resolve-green)" stroke-width="19" stroke-linecap="square" stroke-linejoin="miter"/>
-      <path d="M31 74 53 96 102 47" fill="none" stroke="#D9FFE6" stroke-width="3" stroke-linecap="square" stroke-linejoin="miter" opacity=".35"/>
-      <path d="M41 75 34 82M50 84 43 91M66 83l7 7M77 72l7 7M88 61l7 7" fill="none" stroke="#D9FFE6" stroke-width="2.4" stroke-linecap="round" opacity=".74"/>
+    <path d="M24 30h80a8 8 0 0 1 8 8v34" fill="none" stroke="#6EA8FF" stroke-width="3.5" stroke-linecap="round" opacity=".42"/>
+    <g opacity=".94">
+      <rect x="36" y="27" width="18" height="78" fill="#FFFFFF"/>
+      <rect x="54" y="27" width="32" height="17" fill="#FFFFFF"/>
+      <rect x="83" y="40" width="17" height="31" fill="#FFFFFF"/>
+      <rect x="54" y="64" width="38" height="17" fill="#FFFFFF"/>
+      <path d="M68 79h20l24 26H90L68 79Z" fill="#FFFFFF"/>
     </g>
-    <path d="M92 34H68v43.5C68 93.4 58.5 102 45.7 102c-8.1 0-14.3-3.1-18.5-8.7" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M92 34H70v42.8C70 91 61.4 99 46.8 99c-7.2 0-12.4-2.6-16.4-7" fill="none" stroke="#CFE0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".34"/>
+    <g filter="url(#resolve-shadow)">
+      <path d="M31 70l24 24 50-50" fill="none" stroke="#04391E" stroke-width="23" stroke-linecap="square" stroke-linejoin="miter" opacity=".24"/>
+      <path d="M31 70l24 24 50-50" fill="none" stroke="url(#resolve-green)" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter"/>
+      <path d="M40 74l-6 6M48 82l-6 6M67 82l6 6M78 71l6 6M89 60l6 6" fill="none" stroke="#D9FFE6" stroke-width="2.2" stroke-linecap="square" opacity=".68"/>
+    </g>
   </g>
   <text x="540" y="728" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="700" fill="#FFFFFF" text-anchor="middle">Jorge<tspan font-weight="800" fill="#8EC0FF">Resolve</tspan></text>
   <text x="540" y="804" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#CFE0FF" text-anchor="middle">Tecnologia que resolve problema real.</text>
