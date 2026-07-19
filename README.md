@@ -9,9 +9,9 @@ médios empresários ao WhatsApp.
 
 Site estático, sem build step:
 
-- `index.html` — marcação semântica (13 seções)
-- `styles.css` — design system, componentes e responsividade (mobile-first)
-- `script.js` — interações leves (menu mobile, reveal on scroll, FAQ, header blur)
+- `index.html` — marcação semântica da LP curta focada no Raio-X Jorge Resolve
+- `styles.css` — design system, componentes e responsividade
+- `script.js` — interações leves (menu mobile, FAQ, header blur e ano dinâmico)
 - `assets/` — foto, favicon e imagem OG
 - `_headers`, `_redirects` — configuração da Cloudflare Pages
 - `robots.txt`, `sitemap.xml` — SEO
