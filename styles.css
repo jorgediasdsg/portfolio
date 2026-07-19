@@ -866,21 +866,12 @@ ol {
   }
 
   .hero-media {
-    inset: 0 0 auto auto;
-    width: 100%;
-    height: 48svh;
-    opacity: 0.56;
-  }
-
-  .hero-media::after {
-    background:
-      linear-gradient(180deg, rgba(7, 21, 46, 0.16), var(--navy) 82%),
-      linear-gradient(90deg, var(--navy), rgba(7, 21, 46, 0.24));
+    display: none;
   }
 
   .hero-scrim {
     background:
-      linear-gradient(180deg, rgba(7, 21, 46, 0.56), var(--navy) 62%),
+      linear-gradient(180deg, rgba(7, 21, 46, 0.62), var(--navy) 62%),
       linear-gradient(135deg, rgba(11, 92, 255, 0.42), rgba(37, 211, 102, 0.08));
   }
 
